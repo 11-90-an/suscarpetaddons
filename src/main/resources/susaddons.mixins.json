@@ -1,0 +1,21 @@
+{
+  "required": true,
+  "package": "susaddons.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "comparatorReadThroughOthers.ComparatorMixin",
+    "comparatorReadThroughOthers.WorldMixin",
+
+    "itemDespawnTime.ItemEntityMixin",
+
+    "movableRedstoneStuff.RedstoneTorchBlockMixin",
+    "movableRedstoneStuff.RedstoneWireMixin",
+    "movableRedstoneStuff.RepeaterBlockMixin"
+
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

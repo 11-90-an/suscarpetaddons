@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-sus-addons",
+  "version": "1.0.0",
+
+  "name": "Sus Addons for Carpet",
+  "description": "i tried to make something",
+  "authors": [
+    "1190an"
+  ],
+  "contact": {
+    "sources": "https://github.com/1190an/SusAddons"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/suscarpetaddons/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "susaddons.SusAddons"
+    ]
+  },
+  "mixins": [
+    "susaddons.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": "^1.16.5",
+    "fabricloader": ">=0.4.0",
+    "carpet": ">=1.4.44"
+  }
+}
