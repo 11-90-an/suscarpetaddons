@@ -20,6 +20,3 @@ Redstone dust, redstone torches, repeaters and comparators can be moved now
 * Default value: `false`
 * Required options: `true`, `false`
 * Categories: `FEATURE`, `SUS`
-
-## License
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
